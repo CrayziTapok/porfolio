@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ru">
+  <head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+<div id="aaa">
+  <nav class="navbar bg-light d-flex p-2 bd-highlight">
+    <div class="container-fluid ">
+      <a class="navbar-brand fs-1 ">Костя
+      </a>
+      <div id="current_date_time_block"></div>
+
+<script type="text/javascript">
+    
+    /* функция добавления ведущих нулей */
+    /* (если число меньше десяти, перед числом добавляем ноль) */
+    function zero_first_format(value)
+    {
+        if (value < 10)
+        {
+            value='0'+value;
+        }
+        return value;
+    }
+
+    /* функция получения текущей даты и времени */
+    function date_time()
+    {
+       let current_datetime = new Date();
+       let day = zero_first_format(current_datetime.getDate());
+        let month = zero_first_format(current_datetime.getMonth()+1);
+        let year = current_datetime.getFullYear();
+        let hours = zero_first_format(current_datetime.getHours());
+        let minutes = zero_first_format(current_datetime.getMinutes());
+        let seconds = zero_first_format(current_datetime.getSeconds());
+
+        return day+"."+month+"."+year+" "+hours+":"+minutes+":"+seconds;
+    }
+
+    /* выводим текущую дату и время на сайт в блок с id "current_date_time_block" */
+    document.getElementById('current_date_time_block').innerHTML = date_time();
+</script>
+<div id="current_date_time_block2"></div>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="чего желаете?" aria-label="Поиск">
+        <button class="btn btn-outline-success" type="submit">Найти!</button>
+      </form>
+    </div>
+  </nav>
+    <nav class="navbar bg-light">
+    <form class="container-fluid justify-content-start">
+      
+      <a href="основнаяработа.html" class="btn btn-outline-success me-3" type="button">Что я могу</a>
+    
+    </form>
+  </nav>
+  <nav class="navbar bg-light">
+    <form class="container-fluid justify-content-start">
+      <a href="kostya.html" class="btn btn-outline-success me-3" type="button">Подробные цены и услуги</a>
+    </form>
+  </nav>
+
+<div id="ske">
+  <div class="grid text-right bg-light mt-3 meow" style="--bs-columns: 3;">
+    <div class="mt-1 fs-5">Отзывы:</div>
+    <div class="mt-1 fst-italic">"Хороший друг  @Светлана</div>
+    <div class="mt-1 fst-italic">"Хороший рыбак" @Ирина</div>
+    <div class="mt-1 fst-italic">"Четкий сабутыльник."@Андрей</div>
+    <div class="mt-1 fst-italic">"Хороший муж."@Вася</div>
+    <div class="mt-1 fst-italic">"Лучшая ночь"@Кристина</div>
+  </div>
+<div class="row align-items-start ceni">
+        <div class="bd-example" id="bbb">
+          <table class="table figure mt-3 table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Услуга</th>
+                <th scope="col">Цена</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr class="table table-hover">
+                <th scope="row">1</th>
+                <td>ТРЕЗВЫЙ рыбак "поймаю рыбу за вас" </td>
+                <td>10000</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Сабутыльник на час </td>
+                <td>1500</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Прекрасный вечер'Зависит от услуг '
+                </td>
+                <td>шкалик </td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+          <img src="https://img.freepik.com/premium-photo/fisherman-catching-fish-angling-at-the-lake_79405-12557.jpg?w=2000" class="img" alt="...">
+          
+        </div>
+      </div>
+</div> 
+
+
+<div></div>
+
+<div id="current_date_time_block"></div>
+
+<script type="text/javascript">
+    
+    /* функция добавления ведущих нулей */
+    /* (если число меньше десяти, перед числом добавляем ноль) */
+    function zero_first_format(value)
+    {
+        if (value < 10)
+        {
+            value='0'+value;
+        }
+        return value;
+    }
+
+    /* функция получения текущей даты и времени */
+    function date_time()
+    {
+        var current_datetime = new Date();
+        var day = zero_first_format(current_datetime.getDate());
+        var month = zero_first_format(current_datetime.getMonth()+1);
+        var year = current_datetime.getFullYear();
+        var hours = zero_first_format(current_datetime.getHours());
+        var minutes = zero_first_format(current_datetime.getMinutes());
+        var seconds = zero_first_format(current_datetime.getSeconds());
+
+        return day+"."+month+"."+year+" "+hours+":"+minutes+":"+seconds;
+    }
+
+    /* выводим текущую дату и время на сайт в блок с id "current_date_time_block" */
+    document.getElementById('current_date_time_block').innerHTML = date_time();
+</script>
+<div id="current_date_time_block2"></div>
+
+<script type="text/javascript">
+    
+    /* каждую секунду получаем текущую дату и время */
+    /* и вставляем значение в блок с id "current_date_time_block2" */
+    setInterval(function () {
+        document.getElementById('current_date_time_block2').innerHTML = date_time();
+    }, 1000);
+</script>
+
+
+
+
+
+
+
+
+</div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+*{
+	width: 850px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#aaa {
+	width: 850px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#mens img {
+    width: 300px;
+    margin: 20px 20px 20px 20px;
+    border: 2px solid black;
+
+}
